@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Play List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../assets/minReproductor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="d-desktop">
+        <h1>Lo sentimos</h1>
+        <p>Esta página solo se puede visualizar en Dispositivos Móviles</p>
+    </div>
+
+    <div class="d-movil">
+        <div class="flex-center">
+            <h2>No necesito decirte tantas cosas para expresarte lo que me haces sentir <br>  <br><br> simplemente Lo hago</h2>
+
+            <div class="mini-reproductor">
+                <i class="fas fa-music" style="font-size: 24px;"></i><br>
+                <div class="count-music">
+                </div>
+                <br>
+
+                <h3 id="title">Noun</h3>
+                <div class="player">
+                    <audio id="audioPlayer" src=""></audio>
+                    <div class="main-control">
+                        <div class="item-scrollbar">
+                            <input type="range" name="volumen" id="btn-volumen">
+                        </div>
+                        <div class="btns">
+                            <span id="btn-prev" class="fas fa-backward"></span>
+                            <span id="btn-playPause" class="fas fa-play"></span>
+                            <span id="btn-next" class="fas fa-forward"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="link-index" href="../paths/dedicated.html" type="button"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <script src="../service/service_miniReproductor..js"></script>
+</body>
+</html>
