@@ -232,8 +232,8 @@ body{
     overflow-y: hidden;
 
     /*background-image: url('/imgs/images/img3.jpg');*/
-    background-image: url('/imgs/custom/background.jpeg');
-    
+    background-image: url('imgs/custom/background.jpeg');
+
     
     background-repeat: no-repeat;
     background-position: center;
